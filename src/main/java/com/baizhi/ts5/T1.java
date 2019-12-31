@@ -13,6 +13,5 @@ public class T1 {
         System.out.print("github修改，本地进行更新");
         System.out.print("本地修改，GitHub进行更新");
         System.out.print("本地修改，GitHub进行更新");
-
     }
 }
