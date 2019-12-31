@@ -9,5 +9,6 @@ package com.baizhi.ts5;
 public class T1 {
     public void m1() {
         System.out.println("测试");
+        System.out.println("再次测试");
     }
 }
