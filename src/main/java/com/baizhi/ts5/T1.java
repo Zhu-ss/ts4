@@ -18,5 +18,6 @@ public class T1 {
         System.out.print("本地修改，GitHub进行更新");
         System.out.print("本地修改，GitHub进行更新");
         System.out.println("协同开发，猿A--完毕");
+        System.out.println("协同开发，猿XXX--完毕");
     }
 }
