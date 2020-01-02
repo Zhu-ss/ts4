@@ -1,9 +1,7 @@
-package com.baizhi.aop;
+package com.baizhi.cache;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * @ClassName Aop
@@ -11,11 +9,11 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2020/1/1 14:13
  * @Version 1.0
  **/
-@Aspect
-@Configuration
+//@Aspect
+//@Configuration
 public class Aop {
 
-    @Around("within(com.baizhi.ts5.T1)")
+    @Around("within(com.baizhi.service.T1)")
     public void before(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("这是一个前置通知");
         proceedingJoinPoint.proceed();

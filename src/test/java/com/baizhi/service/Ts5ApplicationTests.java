@@ -1,4 +1,4 @@
-package com.baizhi.ts5;
+package com.baizhi.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,5 +17,9 @@ public class Ts5ApplicationTests {
         t1.m1();
     }
 
+    @Test
+    public void test2() {
+        t1.m2(1, 2);
+    }
 
 }
