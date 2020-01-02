@@ -54,6 +54,6 @@ public class Redisannotayion {
             map.put(s, proceed);
             opsForHash.putAll(target, map);
         }
-        proceedingJoinPoint.proceed();//执行被切方法
+        proceedingJoinPoint.proceed();
     }
 }
